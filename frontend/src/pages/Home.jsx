@@ -20,7 +20,7 @@ return(
 <Card
 icon="⭐"
 title="Sentiment Analysis"
-text="Find guest reviews sentiment easily."
+text="Quickly analyze sentiment of guest reviews."
 />
 
 
