@@ -34,7 +34,7 @@ text="Auto-generate smart responses for guests."
 <Card
 icon="📊"
 title="Review Insights"
-text="Understand your homestay feedback."
+text="Comprehend your homestay feedback."
 />
 
 
