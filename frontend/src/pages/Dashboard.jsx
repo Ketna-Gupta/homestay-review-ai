@@ -11,7 +11,7 @@ return(
 
 <main className="page">
 
-<h1>Review Dashboard</h1>
+<h1>Review Dashboard ✨</h1>
 
 <p>
 Your AI generated review insights will appear here.
