@@ -27,7 +27,7 @@ text="Quickly analyze sentiment of guest reviews."
 <Card
 icon="🤖"
 title="AI Response"
-text="Generate smart replies for guests."
+text="Auto-generate smart responses for guests."
 />
 
 
