@@ -3,6 +3,13 @@ body{
   font-family:Arial, Helvetica, sans-serif;
   background:#f8fafc;
   color:#1e293b;
+  transition:0.3s;
+}
+
+
+body.dark{
+  background:#0f172a;
+  color:white;
 }
 
 
@@ -182,4 +189,39 @@ font-size:32px;
 
 }
 
+}
+
+
+
+
+
+
+
+body.dark .navbar{
+  background:#1e293b;
+}
+
+
+body.dark .links a{
+  color:white;
+}
+
+
+body.dark .hero{
+  background:linear-gradient(
+  135deg,
+  #1e293b,
+  #334155
+  );
+}
+
+
+body.dark .review-card{
+  background:#1e293b;
+  color:white;
+}
+
+
+body.dark footer{
+  background:#020617;
 }
