@@ -1,0 +1,227 @@
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#f8fafc;
+  color:#1e293b;
+  transition:0.3s;
+}
+
+
+body.dark{
+  background:#0f172a;
+  color:white;
+}
+
+
+/* Navbar */
+
+.navbar{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:white;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.logo{
+
+font-size:24px;
+font-weight:bold;
+
+}
+
+
+.links a{
+
+margin-left:25px;
+text-decoration:none;
+color:#334155;
+font-weight:500;
+
+}
+
+
+
+/* Hero */
+
+.hero{
+
+text-align:center;
+padding:90px 20px;
+
+background:linear-gradient(
+135deg,
+#dbeafe,
+#dcfce7
+);
+
+}
+
+
+.hero h1{
+
+font-size:48px;
+margin-bottom:20px;
+
+}
+
+
+.hero p{
+
+font-size:18px;
+max-width:700px;
+margin:auto;
+
+}
+
+
+.hero button{
+
+margin-top:30px;
+padding:14px 35px;
+
+border:none;
+border-radius:30px;
+
+background:#2563eb;
+color:white;
+
+font-size:16px;
+cursor:pointer;
+
+}
+
+
+
+/* Cards */
+
+.cards{
+
+display:flex;
+justify-content:center;
+gap:30px;
+padding:60px 20px;
+flex-wrap:wrap;
+
+}
+
+
+
+.review-card{
+
+width:260px;
+
+background:white;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+
+text-align:center;
+
+}
+
+
+
+.icon{
+
+font-size:45px;
+
+}
+
+
+
+/* Other pages */
+
+.page{
+
+min-height:400px;
+padding:80px 20px;
+text-align:center;
+
+}
+
+
+
+/* Footer */
+
+footer{
+
+background:#0f172a;
+color:white;
+
+padding:30px;
+
+text-align:center;
+
+}
+
+
+
+/* Mobile */
+
+@media(max-width:700px){
+
+.navbar{
+
+flex-direction:column;
+gap:20px;
+
+}
+
+
+.links a{
+
+margin:10px;
+
+}
+
+
+.hero h1{
+
+font-size:32px;
+
+}
+
+}
+
+
+
+
+
+
+
+body.dark .navbar{
+  background:#1e293b;
+}
+
+
+body.dark .links a{
+  color:white;
+}
+
+
+body.dark .hero{
+  background:linear-gradient(
+  135deg,
+  #1e293b,
+  #334155
+  );
+}
+
+
+body.dark .review-card{
+  background:#1e293b;
+  color:white;
+}
+
+
+body.dark footer{
+  background:#020617;
+}

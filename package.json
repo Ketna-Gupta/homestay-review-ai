@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "backend",
   "version": "1.0.0",
   "description": "",
@@ -19,5 +20,9 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
+=======
+  "dependencies": {
+    "react-router-dom": "^7.18.0"
+>>>>>>> 74de97433d00b3ab3b45bc3040e25ac099c210fd
   }
 }
