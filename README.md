@@ -1,4 +1,4 @@
-##🏡 Homestay ReviewAI
+🏡 #Homestay ReviewAI
 
 📌 Overview
 Homestay ReviewAI is a full-stack web application designed to collect, manage, and display guest reviews for homestay properties. The platform enables users to submit reviews and view all feedback in real time. It uses a MERN-style architecture with React on the frontend, Node.js + Express on the backend, and MongoDB for data storage.
