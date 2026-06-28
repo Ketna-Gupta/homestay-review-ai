@@ -59,10 +59,10 @@ git clone https://github.com/Ketna-Gupta/homestay-review-ai.git
 ### 2. Backend Setup
 cd homestay-review-ai/backend  
 npm install  
-Create .env file:  
+### Create .env file:  
 PORT=5000
 MONGO_URI=your_mongodb_connection_string  
-Start backend:  
+### Start backend:  
 npm run dev
 ### 3.Frontend Setup
 cd homestay-review-ai/frontend  
